@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>tabel</title>
+	<style type="text/css">
+		th,td{border: 1px solid black;
+		padding: 15px;}
+		table{border: 1px solid black;
+		border-spacing: 5px;}
+		table#t01 {
+ 	    width: 45%; 
+  	    background-color: #f1f1c1;
+}
+	table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t01 th {
+  color: white;
+  background-color: black;
+}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Biodata</caption>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Nero</td>
+			<td>Chaniago</td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td>Alexis</td>
+			<td>Sanchez</td>
+			<td>29</td>
+		</tr>
+		<tr>
+			<td>Paulo</td>
+			<td>Dybala</td>
+			<td>24</td>
+		</tr>
+	</table>
+	<hr>
+	<table>
+		<caption>Biodata</caption>
+		<tr>
+			<th>Nama</th>
+			<th colspan="2">No HP</th>
+		</tr>
+		<tr>
+			<td>Nero Chaniago</td>
+			<td>08131493321</td>
+			<td>09891818181</td>
+		</tr>
+	</table>
+	<hr>
+	<table>
+		<caption>Biodata</caption>
+		<tr>
+			<th>Nama</th>
+			<td>Nero Chaniago</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone</th>
+			<td>0998</td>
+		</tr>
+		<tr>
+			<td>23232</td>
+		</tr>
+	</table>
+	<hr>
+	<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+</body>
+</html>
